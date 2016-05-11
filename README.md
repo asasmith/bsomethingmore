@@ -1,6 +1,6 @@
 #bsomethingmore
 
-*Design a Logo
+ *Design a Logo
  *Create Author pages
  *Find Imagery
  *Create content and copy for Home page and Author pages
