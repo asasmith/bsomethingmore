@@ -4,6 +4,7 @@
  * Create Author pages
  * Find Imagery
  * Create content and copy for Home page and Author pages
+ * 
  * Decide how to organize and post publications
  
  ##How to Contribute
