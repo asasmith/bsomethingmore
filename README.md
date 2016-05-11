@@ -1,12 +1,12 @@
-# bsomethingmore
+#bsomethingmore
 
--Design a Logo
- -Create Author pages
- -Find Imagery
- -Create content and copy for Home page and Author pages
- -Decide how to organize and post publications
+*Design a Logo
+ *Create Author pages
+ *Find Imagery
+ *Create content and copy for Home page and Author pages
+ *Decide how to organize and post publications
  
- ## How to Contribute
+ ##How to Contribute
  
  1. Fork this repo
  2. Create your feature branch (`git checkout -b my-new-feature`)
