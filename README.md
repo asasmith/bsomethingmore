@@ -19,7 +19,7 @@
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ##Homework
-I know we have all have a lot but I thought it might be a good idea for us to get to know what our goals for this project. This homework will also be helpful with the git workflow (pulls, branching, commit, push, merge requests, and issues etc). It would be awesome if we could do this by the next time we meet, but I understand that might not be possible with our schedules. So hopefully we can all do this by the next time?
+I know we have all have a lot but I thought it might be a good idea for us to get to know what our goals for this project. This homework will also be helpful with the git workflow (pulls, branching, commit, push, merge requests, and issues etc). It would be awesome if we could do this by the next time we meet, but I understand that might not be possible with our schedules. So hopefully we can all do this by the next time we meet?
 
 1. Go to the git hub [bsomethingmore](https://github.com/AsaSmith/bsomethingmore) repo and create an issue. Make the title your name.
 2. Pull/Fetch the most current repo (merge with your master if necessary)
@@ -27,7 +27,7 @@ I know we have all have a lot but I thought it might be a good idea for us to ge
 4. Open the README.md file
 5. Add your name as an h3 below the "Goals"
 6. Below your name write a few sentences explaining what your goals are or what you're hoping to get out of this project
-7. Save file, stage changes, commit changes(add your issue /# to your commit message e.g. 'homework complete /#2'), push branch
+7. Save file, stage changes, commit changes(add your issue \# to your commit message e.g. 'homework complete \#2'), push branch
 8. Any questions, use the slack channel
 9. Have fun!
 
