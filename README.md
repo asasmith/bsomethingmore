@@ -5,12 +5,30 @@
  * Find Imagery
  * Create content and copy for Home page and Author pages
  * Decide how to organize and post publications
- 
- ##How to Contribute
- 
+
+##How to Contribute
+
  1. Fork this repo
  2. Create your feature branch (`git checkout -b my-new-feature`)
  3. Stage your changes (`git add *`)
  4. Commit your changes (`git commit -m 'add some feature'`)
  5. Push your feature branch (`git push origin my-new-feature`)
  6. Create new pull request
+
+##Markdown Cheatsheet
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+##Homework
+I know we have all have a lot but I thought it might be a good idea for us to get to know what our goals for this project. This homework will also be helpful with the git workflow (pulls, branching, commit, push, merge requests, and issues etc). It would be awesome if we could do this by the next time we meet, but I understand that might not be possible with our schedules. So hopefully we can all do this by the next time?
+
+1. Go to the git hub [bsomethingmore](https://github.com/AsaSmith/bsomethingmore) repo and create an issue. Make the title your name.
+2. Pull/Fetch the most current repo (merge with your master if necessary)
+3. Create feature branch, checkout feature branch
+4. Open the README.md file
+5. Add your name as an h3 below the "Goals"
+6. Below your name write a few sentences explaining what your goals are or what you're hoping to get out of this project
+7. Save file, stage changes, commit changes(add your issue /# to your commit message e.g. 'homework complete /#2'), push branch
+8. Any questions, use the slack channel
+9. Have fun!
+
+##Goals
