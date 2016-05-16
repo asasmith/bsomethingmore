@@ -32,3 +32,6 @@ I know we have all have a lot but I thought it might be a good idea for us to ge
 9. Have fun!
 
 ##Goals
+
+###Asa
+I'm hoping to share my learning experiences with other people who might be going through a similar process. I hope that writing a blog will keep me motivated to learn new things and then share them. 
