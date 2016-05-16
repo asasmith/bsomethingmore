@@ -33,3 +33,10 @@ I know we have all have a lot going on but I thought it might be a good idea for
 
 ##Goals
 <h3>Sara Kenney</h3>
+<p>I am hoping to practice basic html and css with this project as well as have a project that I can point to in my portfolio. (When I get to it.)
+<p>Other goals:</p>
+<ul>
+  <li>Stop capitalizing file names</li>
+  <li>Try not to delete this homework</li>
+  <li>Annoy the hell out of Tom.</li>
+</ul>
