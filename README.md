@@ -40,3 +40,6 @@ I know we have all have a lot going on but I thought it might be a good idea for
   <li>Try not to delete this homework</li>
   <li>Annoy the hell out of Tom.</li>
 </ul>
+
+<h3>Arthur Moten</h3>
+I'm hoping to build a ample portfolio and obtain an entry level position as a front end developer.
