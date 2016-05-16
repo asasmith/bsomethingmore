@@ -32,3 +32,5 @@ I know we have all have a lot going on but I thought it might be a good idea for
 9. Have fun!
 
 ##Goals
+<h3>Arthur Moten</h3>
+I'm hoping to build a ample portfolio and obtain an entry level position as a front end developer.
