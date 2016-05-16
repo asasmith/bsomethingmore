@@ -40,3 +40,6 @@ I know we have all have a lot going on but I thought it might be a good idea for
   <li>Try not to delete this homework</li>
   <li>Annoy the hell out of Tom.</li>
 </ul>
+
+###Asa
+I'm hoping to share my learning experiences with other people who might be going through a similar process. I hope that writing a blog will keep me motivated to learn new things and then share them.
