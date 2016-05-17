@@ -44,7 +44,7 @@ I know we have all have a lot going on but I thought it might be a good idea for
 
 
 <h3>Arthur Moten</h3>
-I'm hoping to build a ample portfolio and obtain an entry level position as a front end developer.
+<p>I'm hoping to build an ample portfolio and obtain an entry level position as a front end developer.</p>
 
 ###Asa
 I'm hoping to share my learning experiences with other people who might be going through a similar process. I hope that writing a blog will keep me motivated to learn new things and then share them.
