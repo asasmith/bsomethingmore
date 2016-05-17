@@ -33,4 +33,4 @@ I know we have all have a lot going on but I thought it might be a good idea for
 
 ##Goals
 <h3>Arthur Moten</h3>
-<p>I'm hoping to build an ample portfolio and obtain an entry level position as a front end developer.</p>
+<p>I'm hoping to build an ample portfolio and obtain an entry level position as a front-end web developer.</p>
