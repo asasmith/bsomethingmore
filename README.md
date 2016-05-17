@@ -8,13 +8,32 @@
 
 ##How to Contribute
 
- 1. Fork this repo
- 2. Create your feature branch (`git checkout -b my-new-feature`)
+ 1. Fork this repo (you only have to fork once)
+ 2. **Create your feature branch (`git checkout -b my-new-feature`)**
  3. Stage your changes (`git add *`)
  4. Commit your changes (`git commit -m 'add some feature'`)
  5. Push your feature branch (`git push origin my-new-feature`)
  6. Create new pull request
 
+##How to fetch changes from original repo to yours (do this every day before you make any new feature branches):
+1. In your command line, type **Git remote add upstream** and git@github.com:AsaSmith/bsomethingmore.git or https://github.com/AsaSmith/bsomethingmore.git.
+2. Git fetch upstream
+3. Git checkout master
+4. Git merge upstream/master
+5. Git push origin master
+Your repo on github should now match bsomethingmore's.
+
+##How to merge a pull request...only merge the pull requests of other authors, never your own.
+1. go to the pull request on bsomethingmore in github.
+2. Click the merge pull request button. If there are conflicts move to step 3.
+3. Click the command line instructions link to merge conflicts.
+4. Follow step 1 in your command line.
+5. Stop and open the project in your text editor before doing step 2.
+6. Make necessary edits on the feature branch, save the file, then commit your changes to that branch.
+7. Move to step 2 and complete instructions.
+8. Git push upstream master. (this will update the bsomethingmore repo as well as your own.)
+
+Your repo and the bsomethhingmore repo should match.
 ##Markdown Cheatsheet
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
@@ -44,7 +63,7 @@ I know we have all have a lot going on but I thought it might be a good idea for
 
 
 <h3>Arthur Moten</h3>
-<p>I'm hoping to build an ample portfolio and obtain an entry level position as a front end developer.</p>
+<p>I'm hoping to build an ample portfolio and obtain an entry level position as a front-end web developer.</p>
 
 ###Asa
 I'm hoping to share my learning experiences with other people who might be going through a similar process. I hope that writing a blog will keep me motivated to learn new things and then share them.
