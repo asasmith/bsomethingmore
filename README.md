@@ -70,3 +70,6 @@ I'm hoping to share my learning experiences with other people who might be going
 
 <h3>Joyce Blair</h3>
 <p>Help!</p>
+
+<h3>Abigail Pendergrass</h3>
+<p>I am hoping to complete my website and to continue practicing html, css, and js to further develop my portfolio and understanding of front end web development.</p>
