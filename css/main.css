@@ -1,8 +1,11 @@
 
-/* =================== Import fonts from Google ============================= */
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+/*  ================ Import fonts from Google ==================================== */
 
-/* =================== Reset some basic elements ============================ */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+@i+mport url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
+/*  ================ Reset some basic elements ================ */
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -11,7 +14,8 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-/* =========================== Body =========================================== */
+
+/*  ================ Body ================ */
 
 body {
   color: #222023; /* charcoal */
@@ -25,7 +29,7 @@ body {
   max-width: 64em;
 }
 
-#contact-bar {
+#author-pages {
   background-color: #263577;
   border-radius: 0 0 4px 4px;
   height: 20em;
@@ -35,6 +39,178 @@ body {
   text-align: center;
 }
 
-#contact-bar p{
+#author-pages p{
   margin-bottom: 0.5em;
+}
+
+a.phone {
+  border-radius: 0 0 4px 4px;
+  color: whitesmoke;
+  margin-bottom: 2em;
+  padding: 2em 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.close {
+  margin-top: -20em;
+  transition: margin-top .3s ease-out;
+}
+
+.open {
+  margin-top: 0;
+  transition: margin-top .3s ease-out;
+}
+
+@media (min-width: 64em) {
+  #author-pages {
+    height: 12em;
+  }
+  .close {
+    margin-top: -12em;
+  }
+}
+
+p span
+{
+    display: block;
+}
+
+/*  ================ Headings ================ */
+
+h1, h2, h3 {
+  font-family: "Josefin Slab", Arial, serif;
+  font-weight: bold;
+}
+
+h1 {
+  /* font-size: 3.375em; */
+  font-size: 6vmax;
+  padding: 1em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/*  ================ Layout: header ================ */
+
+header {
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+/* logo */
+
+header img {
+  height: 8vmax;
+  width: 8vmax;
+}
+
+/* navigation */
+
+header nav {
+  margin: 1em 0;
+}
+
+header nav li {
+  display: inline;
+}
+
+/* nav links */
+
+header nav a {
+  background-color: #BAE3ED;
+  border-radius: 4px;
+  color: inherit;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #65B2D6;
+  color: #fff; /* white */
+}
+
+a.active {
+  background-color: #263577;
+  color: #fff; /* white */
+}
+
+/* put logo and navigation side-by-side on larger screens */
+
+@media (min-width: 48em) {
+
+  header img {
+    float: left;
+  }
+
+  header nav {
+    float: center;
+  }
+
+  header nav li+li {
+    padding-left: 1em;
+  }
+}
+
+
+/*  ================ Layout: feature ================ */
+
+div#feature {
+  border-radius: 4px;
+  display: table;
+  height: 30vh; /* 1/3 of viewport height */
+  text-align: center;
+  width: 100%;
+}
+
+div#feature h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*  ================ Basic grid ================ */
+/*
+[class*='col-'] {
+  margin: 1em 0 0;
+  text-align: center;
+}*/
+
+
+#author-pages [class*='col-'] {
+  margin-top: 0;
+  padding: 1em 0;
+  }
+
+
+@media (min-width: 62em) {
+  [class*='col-'] {
+    float: left;
+    width: 32.2%;
+  }
+
+  [class*='col-']+[class*='col-'] {
+    margin-left: 1em;
+  }
+}
+
+/*  ================ Helpers ================ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }

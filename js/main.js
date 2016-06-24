@@ -17,22 +17,22 @@ function handlerActive(e) {
   e.stopPropagation();
 }
 
-var myContactBar = document.getElementById('contact-bar');
-var myContactNavItem = document.querySelector('[href="#contact"]');
+var myAuthorPages = document.getElementById('author-pages');
+var myNavItem = document.querySelector('[href="#author-pages"]');
 
-myContactNavItem.addEventListener("click", handlerContactBar, false);
+myNavItem.addEventListener("click", handlerAuthorPages, false);
 
-function handlerContactBar() {
+function handlerAuthorPages() {
 
-  if (myContactBar.classList.contains('close')) {
+  if (myAuthorPages.classList.contains('close')) {
 
-  myContactBar.classList.remove('close');
-  myContactBar.classList.add('open');
+  myAuthorPages.classList.remove('close');
+  myAuthorPages.classList.add('open');
   }
 
   else {
 
-    myContactBar.classList.remove('open');
-    myContactBar.classList.add('close');
+    myAuthorPages.classList.remove('open');
+    myAuthorPages.classList.add('close');
   }
 }
