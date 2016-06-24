@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*CSS resets*/
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
@@ -14,4 +15,36 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   background: url(/assets/img/balt.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 75vh;
+=======
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700,600);
+@import url(http://lab.clementparis.fr/octicons/octicons.css);
+
+html{
+  height: 100%;
+  box-sizing:border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+
+body {
+  position: relative;
+  height: 100%;
+  background: grey;
+  font-family: 'Titillium Web', sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  position: relative;
+  width: 22em;
+  max-height: 4em;
+  margin: 3.75em auto auto;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+>>>>>>> master
 }
