@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+/*CSS resets*/
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.hero {
+  background: url(/assets/img/balt.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 75vh;
+=======
 @charset "UTF-8";
 
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:700,600);
@@ -28,4 +46,5 @@ nav {
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+>>>>>>> master
 }
