@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+@charset "UTF-8";
 /*CSS resets*/
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
@@ -15,36 +16,224 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   background: url(/assets/img/balt.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 75vh;
-=======
-@charset "UTF-8";
-
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:700,600);
-@import url(http://lab.clementparis.fr/octicons/octicons.css);
-
-html{
-  height: 100%;
-  box-sizing:border-box;
 }
 
-*, *::after, *::before {
-  box-sizing: inherit;
+
+
+/*  ================ Import fonts from Google ==================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+@i+mport url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
+/*  ================ Reset some basic elements ================ */
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*  ================ Body ================ */
 
 body {
-  position: relative;
-  height: 100%;
-  background: grey;
-  font-family: 'Titillium Web', sans-serif;
-  overflow: hidden;
+  color: #222023; /* charcoal */
+  font: normal 100%/150% "Josefin Sans",
+                         "Helvetica Neue",
+                          Helvetica,
+                          Arial,
+                          sans-serif;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 64em;
 }
 
-nav {
-  position: relative;
-  width: 22em;
-  max-height: 4em;
-  margin: 3.75em auto auto;
-  overflow: hidden;
+#author-pages {
+  background-color: #263577;
+  border-radius: 0 0 4px 4px;
+  height: 20em;
+  margin-bottom: 2em;
+  padding: 2em 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#author-pages p{
+  margin-bottom: 0.5em;
+}
+
+a.phone {
+  border-radius: 0 0 4px 4px;
+  color: whitesmoke;
+  margin-bottom: 2em;
+  padding: 2em 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
->>>>>>> master
+  text-decoration: none;
+}
+
+.close {
+  margin-top: -20em;
+  transition: margin-top .3s ease-out;
+}
+
+.open {
+  margin-top: 0;
+  transition: margin-top .3s ease-out;
+}
+
+@media (min-width: 64em) {
+  #author-pages {
+    height: 12em;
+  }
+  .close {
+    margin-top: -12em;
+  }
+}
+
+p span
+{
+    display: block;
+}
+
+/*  ================ Headings ================ */
+
+h1, h2, h3 {
+  font-family: "Josefin Slab", Arial, serif;
+  font-weight: bold;
+}
+
+h1 {
+  /* font-size: 3.375em; */
+  font-size: 6vmax;
+  padding: 1em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/*  ================ Layout: header ================ */
+
+header {
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+/* logo */
+
+header img {
+  height: 8vmax;
+  width: 8vmax;
+}
+
+/* navigation */
+
+header nav {
+  margin: 1em 0;
+}
+
+header nav li {
+  display: inline;
+}
+
+/* nav links */
+
+header nav a {
+  background-color: #BAE3ED;
+  border-radius: 4px;
+  color: inherit;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #65B2D6;
+  color: #fff; /* white */
+}
+
+a.active {
+  background-color: #263577;
+  color: #fff; /* white */
+}
+
+/* put logo and navigation side-by-side on larger screens */
+
+@media (min-width: 48em) {
+
+  header img {
+    float: left;
+  }
+
+  header nav {
+    float: center;
+  }
+
+  header nav li+li {
+    padding-left: 1em;
+  }
+}
+
+
+/*  ================ Layout: feature ================ */
+
+div#feature {
+  border-radius: 4px;
+  display: table;
+  height: 30vh; /* 1/3 of viewport height */
+  text-align: center;
+  width: 100%;
+}
+
+div#feature h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*  ================ Basic grid ================ */
+/*
+[class*='col-'] {
+  margin: 1em 0 0;
+  text-align: center;
+}*/
+
+
+#author-pages [class*='col-'] {
+  margin-top: 0;
+  padding: 1em 0;
+  }
+
+
+@media (min-width: 62em) {
+  [class*='col-'] {
+    float: left;
+    width: 32.2%;
+  }
+
+  [class*='col-']+[class*='col-'] {
+    margin-left: 1em;
+  }
+}
+
+/*  ================ Helpers ================ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
